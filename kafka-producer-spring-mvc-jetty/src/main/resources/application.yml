@@ -1,0 +1,10 @@
+server:
+  port: 8383
+kafka:
+  retriesConfig: 0
+  batchSizeConfig: 16384
+  lingerMsConfig: 1
+  bufferMemoryConfig: 33554432
+  producerServer: localhost:9092
+  partitions: 100  
+  
